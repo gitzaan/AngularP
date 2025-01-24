@@ -1,0 +1,23 @@
+<h1>Welcome to ANGULAR </h1>
+
+<!--Text Interpolation-->
+
+<p> 1+1 = {{1+1}}</p>
+
+<h2>The title is {{title}}</h2>
+<h2>Name is {{name()}}</h2>
+
+<p>{{employees[2]}}</p>
+<ul>
+    <li>{{employee.name}}</li>
+    <li>{{employee.age}}</li>
+    <li>{{employee.role}}</li>
+</ul>
+
+<img src ="{{employee.src}}" height = "300px" width = "200px" alt = "{{employee.alt}}">
+
+<!--Evenet Binding-->
+<input type="button" value = "Save" (click)="clickSave()"/>
+<app-sample></app-sample>
+<app-home></app-home>
+<app-signup></app-signup>
